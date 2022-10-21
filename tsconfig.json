@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "baseUrl": "./",
+    "outDir": "./dist"
+  },
+  "include": ["src/index.ts"],
+  "ts-node": {
+    "files": true
+  }
+}
